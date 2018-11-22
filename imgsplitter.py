@@ -16,7 +16,7 @@
 
     Please feel free to use without any hesitations and report bugs (if any) to
     saaivignesh20@gmail.com (or) commit the changes yourself in this repo itself
-    so that it will be useful to others.
+    so that it will be useful to others. Don't hesitate to add some features too!
 
     Hope you find this script useful.
 
