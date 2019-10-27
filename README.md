@@ -14,3 +14,22 @@ saaivignesh20@gmail.com (or) commit the changes yourself in this repo itself
 so that it will be useful to others. Don't hesitate to add some features too!
 
 Hope you find this script useful.
+
+## Installation
+```
+pip3 install -r requirements.txt
+```
+
+## Usage
+Split ~/Pictures/my_image.png into 2 rows and 3 columns
+```
+python3 imagesplitter.py ~/Pictures/my_image.png --style=23
+```
+A folder with generated images will be created on CWD  
+Split my_image.png into 2 rows and 3 columns and save it to ~/Pictures/buf
+```
+python3 imagesplitter.py my_image.png --style=23 -o ~/Pictures/buf
+```
+
+## Status
+No GUI and barebones functionality.  
