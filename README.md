@@ -13,6 +13,8 @@ Please feel free to use without any hesitations and report bugs (if any) to
 saaivignesh20@gmail.com (or) commit the changes yourself in this repo itself
 so that it will be useful to others. Don't hesitate to add some features too!
 
+The script on this branch is based on numpy, contributed by [lord8266](https://github.com/lord8266).
+
 Hope you find this script useful.
 
 ## Installation
@@ -25,11 +27,14 @@ Split ~/Pictures/my_image.png into 2 rows and 3 columns
 ```
 python3 imagesplitter.py ~/Pictures/my_image.png --style=23
 ```
-A folder with generated images will be created on CWD  
+A folder with generated images will be created on CWD
 Split my_image.png into 2 rows and 3 columns and save it to ~/Pictures/buf
 ```
 python3 imagesplitter.py my_image.png --style=23 -o ~/Pictures/buf
 ```
 
 ## Status
-No GUI and barebones functionality.  
+No GUI and barebones functionality.
+
+## Attribution
+Thanks to [lord8266](https://github.com/lord8266 "Vishwa Pravin") for the contribution for this branch.
